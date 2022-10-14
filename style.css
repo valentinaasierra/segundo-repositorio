@@ -3,3 +3,31 @@
     padding: 0;
     margin: 0;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    font-size: 18px;
+}
+h1{
+    text-align: center;
+    color: red;
+    margin-bottom: 5%;
+}
+.section{
+    padding-bottom: 5%;
+}
+.section > h2{
+    color: blue;
+    margin-bottom: 20px;
+}
+.section > p{
+    line-height: 32px;
+}
+#section4 > ul{
+    padding-left: 3%;
+    padding-top: 5%;
+}
+#section4 > ul > li{
+    padding-top: 20px;
+}
