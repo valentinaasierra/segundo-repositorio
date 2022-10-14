@@ -31,3 +31,31 @@ h1{
 #section4 > ul > li{
     padding-top: 20px;
 }
+.menu{
+    margin-bottom: 5%;
+}
+.menu > ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+.menu > ul > li{
+    padding: 10px 20px;
+    background-color: coral;
+    min-width: 150px;
+    text-align: center;
+    border-radius: 5px;
+}
+.menu > ul > li:hover{
+    transform: scale(1.1);
+    background-color: brown;
+}
+
+.menu > ul > li> a:link{
+    text-decoration: none;
+    color: black;
+}
+.menu > ul > li> a:visited{
+    text-decoration: none;
+    color: black;
+}
